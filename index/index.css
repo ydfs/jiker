@@ -2,27 +2,35 @@
     margin: 0;
     padding: 0;
 }
-html{
+html,body{
     width: 100%;
     height: 100%;
     background: #F8FAFC;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
 }
 
-
 .page-header{
+    min-width: 1440px;
     background: #FFFFFF;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.05);
 }
 .header{
-    width: 1440px;
+    width: 1080px;
     margin: 0 auto;
     height: 60px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     position: relative;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .header-logo img{
     width: 70px;
-    margin-left: 180px;
 }
 .header-classify{
     display: flex;
@@ -45,21 +53,11 @@ html{
     width: 68px;
     height: 15px;
     font-size: 15px;
-    font-family: PingFangSC-Medium, PingFang SC;
-    font-weight: 500;
     color: #333333FF;
     line-height: 15px;
 }
 .head-portrait{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-left: 600px;
-}
-.head-portrait img{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    justify-self: flex-end;
 }
 
 
@@ -68,9 +66,8 @@ html{
     padding: 0 calc((100% - 1440px)/2);
 }
 .body-img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    min-width: 1440px;
+    text-align: center;
     padding-top: 20px;
 }
 .body-img img{
@@ -79,6 +76,7 @@ html{
 }
 .text-box{
     display: flex;
+    min-width: 1080px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -87,19 +85,20 @@ html{
 .text-box .body-word{
     text-align: center;
     font-size: 20px;
-    font-family: PingFangSC-Medium, PingFang SC;
-    font-weight: 500;
     color: #333333;
     line-height: 14px;
 }
 .text-box .body-words{
     font-size: 14px;
-    font-family: PingFangSC-Medium, PingFang SC;
-    font-weight: 500;
     color: #666666;
     line-height: 40px;
 }
+
+
+
 .recommend{
+    min-width: 1080px;
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -124,8 +123,6 @@ html{
 }
 .recommend-word .top-word{
     font-size: 20px;
-    font-family: PingFangSC-Medium, PingFang SC;
-    font-weight: 500;
     color: #333333;
     line-height: 20px;
     text-decoration: none;
@@ -133,7 +130,6 @@ html{
 .recommend-word .body-wprd{
     width: 215px;
     font-size: 14px;
-    font-family: PingFangSC-Regular, PingFang SC;
     font-weight: 400;
     color: #666666;
     line-height: 20px;
@@ -141,7 +137,6 @@ html{
 }
 .recommend-word .bottom-word{
     font-size: 12px;
-    font-family: PingFangSC-Regular, PingFang SC;
     font-weight: 400;
     color: #666666;
     line-height: 12px;
@@ -168,6 +163,7 @@ html{
 .video{
     display: flex;
     flex-wrap: wrap;
+    min-width: 1080px;
     justify-content: center;
     align-items: center;
     padding-right: 100px;
@@ -198,7 +194,6 @@ html{
     width: 226px;
     height: 40px;
     font-size: 15px;
-    font-family: PingFangSC-Regular, PingFang SC;
     font-weight: 400;
     color: #333333;
     line-height: 22px;
@@ -214,7 +209,6 @@ html{
     width: 211px;
     height: 12px;
     font-size: 12px;
-    font-family: PingFangSC-Regular, PingFang SC;
     font-weight: 400;
     color: #666666;
     line-height: 12px;
@@ -225,7 +219,6 @@ html{
     width: 75px;
     height: 12px;
     font-size: 12px;
-    font-family: PingFangSC-Regular, PingFang SC;
     font-weight: 400;
     color: #666666;
     line-height: 12px;
@@ -243,6 +236,7 @@ html{
 .project{
     display: flex;
     flex-wrap: wrap;
+    min-width: 1080px;
     justify-content: center;
     align-items: center;
     padding-right: 100px;
@@ -267,7 +261,6 @@ html{
     width: 169px;
     height: 40px;
     font-size: 15px;
-    font-family: PingFangSC-Regular, PingFang SC;
     font-weight: 400;
     color: #333333;
     line-height: 22px;
@@ -284,7 +277,6 @@ html{
 }
 .project-bottom a{
     font-size: 13px;
-    font-family: PingFangSC-Regular, PingFang SC;
     font-weight: 400;
     color: #FFFFFF;
     line-height: 13px;
@@ -297,6 +289,7 @@ html{
 
 
 .last{
+    min-width: 1080px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -323,7 +316,6 @@ html{
 }
 .last-word a{
     font-size: 15px;
-    font-family: PingFangSC-Regular, PingFang SC;
     font-weight: 400;
     color: #333333;
     line-height: 22px;
@@ -331,7 +323,6 @@ html{
 }
 .last-lcon{
     font-size: 12px;
-    font-family: PingFangSC-Regular, PingFang SC;
     font-weight: 400;
     color: #666666;
     line-height: 12px;
@@ -347,25 +338,17 @@ html{
 
 
 .page-footer{
+    min-width:1440px;
     height: 41px;
     background: #333744;
     padding: 0 calc((100% - 1440px)/2);
 }
-.footer-box{
-    width: 1440px;
-    height: 40px;
+.footer-word{
+    text-align: center;
+    line-height: 40px;
     font-size: 12px;
-    font-family: PingFangSC-Regular, PingFang SC;
     font-weight: 400;
     color: #FFFFFF;
-    line-height: 17px;
-    text-decoration: none;
-    margin-top: 40px;
-}
-.footer-word{
-    display: flex;
-    justify-content: center;
-    padding: 12px;
 }
 .footer-word a{
     color: #FFFFFF;
