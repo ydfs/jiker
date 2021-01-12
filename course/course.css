@@ -46,6 +46,7 @@ html,body{
     font-weight: 500;
     line-height: 15px;
     color: #333333;
+    text-decoration: none;
 }
 .header-word a:nth-child(3){
     color: #35B558;
