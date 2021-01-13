@@ -36,13 +36,20 @@ html,body{
     font-size: 18px;
     color: #3E3A3A;
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 25px;
     height: 26px;
 }
-.box-word a:nth-child(3){
+.box-word a:hover{
     color: #4F6FDA;
 }
 .box-word span{
+    display: block;
+    width: 40px;
+    height: 6px;
+    background-color: #FFFFFF;
+    margin-top: 15px;
+}
+.box-word a:hover span{
     display: block;
     width: 40px;
     height: 6px;
@@ -141,6 +148,7 @@ html,body{
     color: #fff;
     border: 1px solid #466DE1;
     cursor: pointer;
+    font-size: 18px;
 }
 .words-right button:hover {
     opacity: 0.8;

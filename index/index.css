@@ -38,14 +38,14 @@ html,body{
     align-items: center;
     margin-left: 45px;
 }
-.header-classify span{
+.header-classify a:hover span{
     display: block;
     width: 28px;
     height: 3px;
     background-color: #006EDA;
     margin-top: 7px;
 }
-.header-classify a:first-child{
+.header-classify a:hover{
     color: #006EDAFF;
 }
 .header-classify a{
